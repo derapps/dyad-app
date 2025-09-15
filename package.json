@@ -1,0 +1,30 @@
+{
+  "name": "dyad-app",
+  "version": "1.0.0",
+  "description": "My Dyad application for zero2launch.co.uk",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo 'Build complete - Dyad app ready for production!'",
+    "dev": "node server.js",
+    "test": "echo 'No tests specified'"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "dyad",
+    "nodejs",
+    "express",
+    "zero2launch"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
